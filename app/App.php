@@ -1,5 +1,8 @@
 <?php
 namespace Cr0\YoghPlugin;
+if ( ! defined( 'ABSPATH' ) ) {
+    die( 'not allowed' );
+}
 /**
  *  Main class to add custom functionality, using singleton pattern
  */
